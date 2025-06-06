@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int N, A, x;
+    // Nは支払い金額
+    // Aは持っている一円玉の数
+
+    cin >> N >> A;
+
+    x =  N % 500;
+
+    if (x <= A) {
+        cout << "Yes" << endl;
+    } else if (x > A) {
+        cout << "No" << endl;
+    } 
+}
